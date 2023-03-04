@@ -1,8 +1,7 @@
-require('rose-pine').setup({
-    disable_background = true,
-    disable_float_background = true,
+require("catppuccin").setup({
+    flavour = "frappe", -- latte, frappe, macchiato, mocha
+    transparent_background = true,
 })
 
 vim.o.background = "dark"
-vim.cmd.colorscheme('rose-pine')
--- testing symlink
+vim.cmd.colorscheme('catppuccin')

@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
         as = 'rose-pine',
     })
 
-    use "rebelot/kanagawa.nvim"
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
