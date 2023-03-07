@@ -39,7 +39,7 @@ set $crust     #232634
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 30px
+font pango:monospace 25px
 
 # GET DEM BORDERS OUT OF HEREc:w
 #
